@@ -1,4 +1,4 @@
-# OpenClaw - Detecting usage
+# 🦞 OpenClaw - Detecting usage
 ---
 ## Description
 This query looks through DeviceProcessEvents from Defender for Endpoint, looking for processes or command line executions related to openclaw / clawdbot / moltbot and it's common forks. OpenClaw isn't something that should be ran on your company network or company-owned devices, so you can use this to detect it. Queries are based on official Microsoft queries shared as a part of their blog post with some of my own additions / modifications.
@@ -15,6 +15,4 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, AccountName=InitiatingProcessAccountName, FileName, FolderPath, ProcessCommandLine 
 | order by Timestamp desc
 ```
-
-
 

@@ -4,3 +4,7 @@ WPS Office is a pesky Chinese freemium Office-clone that installs in the user co
 
 - [Device Process Events](WPSOffice_DeviceProcessEvents.md)
 - [Phone Home Network Connections](WPSOffice_PhoneHome.md)
+
+I have also uploaded the extracted certificate for the developer (Kingsoft), if you want to create a block indicator in Defender XDR:
+
+- [Certificate file](wps_office_certificate.pem)

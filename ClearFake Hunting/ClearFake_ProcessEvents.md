@@ -1,7 +1,7 @@
-# 🦞 ClearFake - Detecting malicious runs
+# 🕵🏻‍♂️ ClearFake - Detecting malicious process events
 ---
 ## Description
-This query looks through DeviceProcessEvents from Defender for Endpoint, looking for processes or command line executions usual to ClickFix attacks like ClearFake. 
+This query looks through DeviceProcessEvents from Defender for Endpoint, looking for processes or command line executions usual to ClickFix attacks like ClearFake. This query looks for usual obfuscation methods like breaking up often-matched commands, while also looking for non-obfuscated versions that are still out there.
 
 ### References
 - [PaloAlto Unit 42 - Preventing the ClickFix Attack Vector](https://unit42.paloaltonetworks.com/preventing-clickfix-attack-vector/)
